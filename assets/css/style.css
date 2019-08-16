@@ -1,0 +1,85 @@
+body {
+	background-color: #eaeaea;
+}
+
+h2, p, button {
+	font-family: 'Permanent Marker', cursive;
+	margin: 0;
+}
+
+.tela {
+	width: 100%;
+	max-width: 320px;
+    margin: 6% auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 5px solid #515151;
+}
+
+.title {
+	padding: 35px 30px 35px;
+    border-bottom: 5px solid #515151;
+}
+
+.body {
+	padding: 15px 20px 10px;
+}
+
+.planet-name {
+	color: #515151;
+	font-size: 30px;
+}
+
+.population,
+.climate,
+.terrain {
+	color: #515151;
+	font-size: 20px;
+    text-align: left;
+}
+
+.films {
+	color: #515151;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.botao {
+	text-align: center;
+}
+
+button#next {
+	background-color: rgba(255, 255, 255, 0);
+    color: #515151;
+    border: 5px solid #515151;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button#next:hover {
+	background-color: #515151;
+    color: #fff;
+}
+
+#carregando {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+#carregando h2 {
+	color: #fff;
+    font-size: 36px;
+    top: 30%;
+    position: relative;
+}
